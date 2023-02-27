@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
     {
         Position::factory(10)->create();
 
-        Employee::factory(50)->create();
+        Employee::factory(49)->create();
 
     }
 }
